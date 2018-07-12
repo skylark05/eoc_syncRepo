@@ -1,5 +1,5 @@
 resources:
-  - name: eoc_manifests_gitRepo
+  - name: eoc_manifest_gitRepo
     type: gitRepo
     integration: github
     versionTemplate:
@@ -10,5 +10,5 @@ jobs:
   - name: eoc_packages_runCI
     type: runCI
     steps:
-      IN: eoc_manifests_gitRepo
+      IN: eoc_manifest_gitRepo
       switch: off
