@@ -3,7 +3,7 @@ resources:
     type: gitRepo
     integration: github
     versionTemplate:
-      sourceName: skylark05/eoc_manifests
+      sourceName: skylark05/eoc_manifest
       branch: master
 
 jobs:
