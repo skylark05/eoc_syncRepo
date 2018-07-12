@@ -10,5 +10,5 @@ jobs:
   - name: eoc_packages_runCI
     type: runCI
     steps:
-      IN: eoc_manifest_gitRepo
-      switch: off
+      - IN: eoc_manifest_gitRepo
+        switch: off
